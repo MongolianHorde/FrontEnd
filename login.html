@@ -1,53 +1,43 @@
-<!DOCTYPE HTML> 
-<html>
-<head>
-    <meta name="author" 
-         content="Mongolian Horde" />
-	<link href="style.css" rel="stylesheet" type="text/css" />
-    <meta http-equiv="Content-Type" 
-         content="text/html; charset=utf-8" /> 
- 
-    <title>Test Republic::Home</title>
-</head>
-<body>
-
-	<!-- Heading with Logo & Text -->
-	<div id="header">
-		<img src="logo3.png" alt="TestRepublicLogo" class="logo" />
-	
-		<p class="TestRepublicText">
-			TEST REPUBLIC
-		</p>
-	
-		<hr />
-	</div>
-
-	<!-- User Login -->
-	<div id="body">
+<!DOCTYPE HTML>  
+<html> 
+<head> 
+    <meta name="author"  
+          content="Mongolian Horde" /> 
+ 	<link href="style.css" rel="stylesheet" type="text/css" /> 
+    <meta http-equiv="Content-Type"  
+         content="text/html; charset=utf-8" />  
+  
+    <title>Test Republic::Home</title> 
+</head> 
+<body> 
+	<div id="loginContainer">
 		
-		<br />
-		<br />
+		<div id="container2">
 		
-		<div id="loginContainer">
-			<fieldset>
-				<span id="loginText">Please log in to create, review, or take the test:</span>
-		<form method="post" action="login.php"> 
-			<br />
-			<label>Username: 
-				<input type="text" name="username" id="username" />
-			</label>
-			<br />
-			<br />
-			<label>Password: 
-				<input type="password" name="password" id="password" />
-			</label>
+		<img src="logo3.png" id="loginLogo" />
+		
+		<p id="loginText">Log in</p>
+		
+		<form method="post" action="login.php">  
+ 				
+			<input type="text" name="username" id="username" placeholder="Username" /> 
+
 			<br />
 			<br />
-			<input type="submit" value="Log in" />
 			
+ 			<input type="password" name="password" id="password" placeholder="Password" /> 
 			
-        	</form> 
+			<br />
+			<br />
+			
+ 			<input type="submit" value="Log in" id="loginButton" />
+			
+		</form>
+
 		</div>
+		
 	</div>
-</body>
-</html>
+ 
+	
+</body> 
+</html> 
